@@ -86,5 +86,22 @@ h2 {
 }
 
 .footer {
-    background-color: chocolate;
+    background-color: aaa;
+}
+
+.footer .footer_title {
+    color: #fff;
+    margin: 10px 0 20px 40px;
+
+}
+
+.footer .footer_textbox {
+    margin-left: 40px;
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+}
+
+.footer .footer-text {
+    width: 230px;
 }
