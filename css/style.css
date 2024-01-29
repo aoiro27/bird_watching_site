@@ -75,7 +75,13 @@ h2 {
 }
 
 .sns {
-    background-color: burlywood;
+    margin: 0 auto;
+}
+
+.sns .sns-icon {
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
