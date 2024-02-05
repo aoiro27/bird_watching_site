@@ -1,0 +1,106 @@
+.container {
+    display: grid;
+    width: 834px;
+    grid-template-columns: 834px;
+    grid-template-rows: 50px 356px auto 65px 120px;
+    margin: 0 auto;
+    gap: 30px 0
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin-left: 20px;
+}
+
+.header ul li {
+    margin-top: 30px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    width: 180px;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 40px 1fr 40px 1fr 40px;
+    grid-template-rows: 24px 412px;
+}
+
+.photo .mejiros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo .mejiros img {
+    width: 117px;
+    height: 117px;
+}
+
+h2 {
+    grid-column: 2 / 5;
+}
+
+.photo {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.main-text {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.main-text .p1 {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-text .button_back {
+    width: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.sns {
+    margin: 0 auto;
+}
+
+.sns .sns-icon {
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #aaa;
+}
+
+.footer .footer_title {
+    color: #fff;
+    margin: 10px 0 20px 40px;
+
+}
+
+.footer .footer_textbox {
+    margin-left: 40px;
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+}
+
+.footer .footer-text {
+    width: 230px;
+}
