@@ -101,15 +101,13 @@ h2 {
     border-radius: 10px;
 }
 
-.sns {
-    margin: 0 auto;
-}
-
-.sns .sns-icon {
-    width: 282px;
+.SNS .SNS_Logo {
+    width: 251px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    padding-top: 12px;
+    border-top: 1px solid #000;
 }
 
 .footer {
