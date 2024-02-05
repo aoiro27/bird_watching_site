@@ -1,10 +1,17 @@
 .container {
     display: grid;
-    width: 834px;
-    grid-template-columns: 834px;
-    grid-template-rows: 50px 356px auto 65px 120px;
+    width: 375px;
+    grid-template-columns: 375px;
+    grid-template-rows: 40px 160px auto 56px 246px;
     margin: 0 auto;
     gap: 30px 0
+}
+
+p {
+    font-size: 12px;
+    color: #483e3e;
+    font-weight: w4;
+
 }
 
 .header {
@@ -13,19 +20,28 @@
 }
 
 .header h1 {
-    margin-left: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: w8;
+    color: #81a238;
+    padding-top: 10px;
 }
 
 .header ul li {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .header ul {
     display: flex;
     list-style-type: none;
-    width: 180px;
+    width: 140px;
     justify-content: space-between;
-    margin-right: 15px;
+    margin-right: 5px;
+}
+
+.TopPhoto img {
+    width: 375px;
+
 }
 
 .main {
